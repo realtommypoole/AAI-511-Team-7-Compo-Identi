@@ -93,7 +93,6 @@ With this preprocessing pipeline:
 
 
 ### 3. Feature Extraction
-## **Feature Extraction**  
 
 The project extracts **distinct sets of features** for the LSTM and CNN models to leverage their strengths in modeling sequential and spatial-temporal data.  
 
@@ -169,7 +168,6 @@ By weighting underrepresented classes more heavily, the model avoids bias toward
 
 
 ### 5. Model Building
-## **Model Building**
 
 This project employs two distinct deep learning architectures to classify musical compositions by composer:  
 1. **Long Short-Term Memory (LSTM) Network**  
@@ -186,6 +184,8 @@ The LSTM model is designed to capture **temporal dependencies** and **sequential
   - Dropout layers to prevent overfitting.
 - **Output**: Softmax layer producing probabilities for each composer class.
 
+![LSTM Model](Image/lstm-model.png)
+
 ---
 
 ### **2. Hybrid CNN + MLP Model**
@@ -199,6 +199,8 @@ The CNN-based approach focuses on **spatial and multi-channel relationships** in
   - Merges CNN and MLP outputs to combine temporal-spatial and statistical information.
   - Fully connected layers for final classification.
 - **Output**: Softmax layer for multi-class composer prediction.
+
+![LSTM Model](Image/cnn-trained model.png)
 
 ---
 
