@@ -200,7 +200,8 @@ The CNN-based approach focuses on **spatial and multi-channel relationships** in
   - Fully connected layers for final classification.
 - **Output**: Softmax layer for multi-class composer prediction.
 
-![LSTM Model](Image/cnn-trained model.png)
+![LCNN Hybrid Model](Image/"cnn-trained%20model.png")
+
 
 ---
 
