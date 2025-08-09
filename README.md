@@ -33,7 +33,6 @@ The dataset is available on Kaggle and can be found [here](https://www.kaggle.co
 This make sure ge get the latest data every time. Data set contains MIDI file from many different composer but we have selected ony four composed 'Bach', 'Beethoven', 'Chopin', 'Mozart'. MIDI file for each composer are in directory which is named after them. We also observed that there are nested zip files. So during data preparation phase folders are iterated recursavely to find any nested zip file and extract the files under it.
 
 ### 2. Data Pre-processing
- ## **Data Preprocessing**  
 
 This project uses **MIDI** files of classical compositions by multiple composers as the source dataset. Since LSTM and CNN architectures require different input formats, the preprocessing pipeline was designed separately for each model.  
 
@@ -358,7 +357,6 @@ Pre requisites
 5. Run the Jupyter Notebook:
    ```bash
    jupyter notebook "MS_AII_551_Team7.ipynb"
-   ```
    ```
 
 ** Running the code on Google colab **
