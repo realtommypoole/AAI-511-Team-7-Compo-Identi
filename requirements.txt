@@ -1,0 +1,12 @@
+numpy
+pandas
+seaborn
+matplotlib
+tqdm
+mido
+pretty_midi
+kagglehub
+scikit-learn
+tensorflow
+kaggle
+pretty_midi
